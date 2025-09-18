@@ -1,4 +1,4 @@
-# stringek
+# fun fact a stringekről
 
 
 ```python
