@@ -1,5 +1,5 @@
 # fun fact a stringekről
-_LSD -->_ C, C++
+_*LSD -->*_ C, C++
 
 ```python
 
