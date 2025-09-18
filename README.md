@@ -51,3 +51,30 @@ if irasjelek_nelkul == palindrom:
 else:
     print("ez a mondat: '"+ bekeres + "' NEM palindrom!")
 ```
+
+
+```python
+bekeres = input("Kérek egy szöveget:\t").lower()
+
+palindrom = ""
+irasjelek_nelkul = ''
+meddig = len(bekeres)-1
+
+index = 0
+while index <= meddig:
+    if str.isalpha(bekeres[index]):
+        irasjelek_nelkul += bekeres[index]
+    index+=1
+
+while meddig >= 0:
+
+    if str.isalpha(bekeres[meddig]):
+        palindrom += bekeres[meddig]
+    meddig-=1
+
+if irasjelek_nelkul == palindrom:
+    print("ez a mondat: '"+ bekeres + "' palindrom!")
+else:
+    print("ez a mondat: '"+ bekeres + "' NEM palindrom!")
+
+```
