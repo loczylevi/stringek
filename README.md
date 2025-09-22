@@ -78,3 +78,5 @@ else:
     print("ez a mondat: '"+ bekeres + "' NEM palindrom!")
 
 ```
+
+két oldalrol elindzlunk segédváltozoval éd a start változot affig növeljük mig spaceket találunk
